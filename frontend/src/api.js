@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // Set up base URL for the API (assuming your backend is running on localhost:5000)
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api', // Replace with your backend's base URL
+  baseURL: 'https://tech-blog-1-t6ez.onrender.com/', // Replace with your backend's base URL
 });
 
 // Function to fetch posts
